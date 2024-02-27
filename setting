@@ -1,0 +1,20 @@
+#################### Interferer index & IP (RPI) ################################
+Interferer 1: 10.100.185.7
+Interferer 2: 10.100.184.224
+Interferer 3: 10.100.180.219
+Interferer 4: 10.100.184.253
+Interferer 5: 10.100.184.231
+
+##################### Gateway(RPI) IP ###########################################
+NTU private: 10.100.185.29
+Asus_2G local: 192.168.1.69
+
+##################### Chirpstack NS(RPI) IP #####################################
+NTU private: 10.100.177.232
+Asus_2G local: 192.168.1.32
+
+#################### serial write & read ########################################
+echo 'SF 10' > /dev/ttyACM0
+minicom --device /dev/ttyACM0 --baud 9600
+
+
